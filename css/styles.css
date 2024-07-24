@@ -468,6 +468,10 @@ img {
 .footer-subscribe {
   margin-left: auto;
 }
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
 .footer-subscribe-text {
   font-weight: 500;
   font-size: 16px;
@@ -483,7 +487,6 @@ img {
   height: 40px;
   outline: transparent;
   background-color: #2e2f42;
-  margin-right: 24px;
 }
 .footer-input:focus,
 .footer-input:hover {
@@ -502,10 +505,10 @@ img {
   color: #404bbf;
 }
 .footer-btn {
-  /* display: flex;
+  display: flex;
   align-items: center;
-  justify-content: center; */
-
+  justify-content: center;
+  gap: 16px;
   border-radius: 4px;
   padding: 8px 24px;
   width: 165px;
