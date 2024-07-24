@@ -408,11 +408,26 @@
           </li>
         </ul>
       </div>
+      <div class="footer-subscribe">
+        <p class="footer-subscribe-text">Subscribe</p>
+        <label class="footer-label">
+          <input class="footer-input" type="email" name="footer-email" id="footer-email" placeholder="E-mail">
+
+        </label>
+        <button type="button" class="footer-btn">Subscribe
+          <svg class="fotter-btn-icon" width="24" height="20">
+            <use href="./images/icons.svg#icon-send"></use>
+
+          </svg>
+        </button>
+
+      </div>
+
     </div>
   </footer>
   <div class="backdrop">
     <div class="modal">
-      <button type="button" class="modal-close-btn">
+      <button type="submit" class="modal-close-btn">
         <svg class="modal-close-icon" width="8" height="8">
           <use href="./images/icons.svg#icon-cross"></use>
         </svg>
@@ -432,7 +447,7 @@
           <label class="modal-label" for="user-phone">Phone</label>
           <div class="modal-field-wrap">
             <input class="modal-input" type="tel" name="user-phone" required maxlength="13" id="user-phone" />
-            <svg class="modal-user-icon" width="12" height="12">
+            <svg class="modal-user-icon" width="13" height="13">
               <use href="./images/icons.svg#icon-phone"></use>
             </svg>
           </div>
@@ -441,7 +456,7 @@
           <label class="modal-label" for="user-email">Email</label>
           <div class="modal-field-wrap">
             <input class="modal-input" type="email" name="user-email" required id="user-email" />
-            <svg class="modal-user-icon" width="12" height="12">
+            <svg class="modal-user-icon" width="15" height="12">
               <use href="./images/icons.svg#icon-later"></use>
             </svg>
           </div>
@@ -450,17 +465,17 @@
           <label class="modal-label">Comment</label>
           <textarea class="modal-textarea" name="comment" placeholder="Text input"></textarea>
         </div>
-        <div class="modal-field">
+        <div class="modal-field down-field">
           <input type="checkbox" name="terms" id="terms" value="true" class="modal-check visually-hidden" />
           <label for="terms" class="modal-check-text"><span>
-              <svg width="10" height="10">
+              <svg width="10" height="8">
                 <use href="./images/icons.svg#icon-check"></use>
               </svg>
             </span>
             I accept the terms and conditions of the
             <a href="" class="privacy-policy">Privacy Policy</a></label>
         </div>
-        <button type="submit">Send</button>
+        <button type="submit" class="page-button">Send</button>
       </form>
     </div>
   </div>
