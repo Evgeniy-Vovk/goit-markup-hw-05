@@ -617,6 +617,9 @@ img {
 .modal-field {
   margin-bottom: 8px;
 }
+.middle-field {
+  margin-bottom: 16px;
+}
 .modal-field-wrap {
   position: relative;
 }
