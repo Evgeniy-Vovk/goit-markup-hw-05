@@ -615,7 +615,7 @@ img {
 }
 
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .modal-field-wrap {
   position: relative;
@@ -695,11 +695,11 @@ img {
   gap: 8px;
 }
 .modal-check-text-span {
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
